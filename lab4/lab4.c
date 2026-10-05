@@ -13,30 +13,30 @@ void zadanie3();
 
 void zadanie1()
 {
-    // вычисление sin угла, заданного в градусах
+    // РІС‹С‡РёСЃР»РµРЅРёРµ sin СѓРіР»Р°, Р·Р°РґР°РЅРЅРѕРіРѕ РІ РіСЂР°РґСѓСЃР°С…
     double gr, rad;
 
-    printf("1. Введите угол в градусах: ");
+    printf("1. Р’РІРµРґРёС‚Рµ СѓРіРѕР» РІ РіСЂР°РґСѓСЃР°С…: ");
     scanf("%lf", &gr);
 
     rad = gr * M_PI / 180.0;
 
-    printf("sin(%.0lf град) = %.6lf\n", gr, sin(rad));
+    printf("sin(%.0lf РіСЂР°Рґ) = %.6lf\n", gr, sin(rad));
 }
 
 void zadanie2()
 {
-    //2. вар 4. вычисление функции y
+    //2. РІР°СЂ 4. РІС‹С‡РёСЃР»РµРЅРёРµ С„СѓРЅРєС†РёРё y
     double x;
 
-    printf("2. Введите x: ");
+    printf("2. Р’РІРµРґРёС‚Рµ x: ");
     scanf("%lf", &x);
 
     a = log(x);
     b = sqrt(x * x + T * T);
     y = pow(fabs(a - b * x), 1.0 / 5.0);
 
-    printf(" Результаты:\n");
+    printf(" Р РµР·СѓР»СЊС‚Р°С‚С‹:\n");
     printf("t = %.0lf\n", T);
     printf("a = ln(%.2lf) = %.6lf\n", x, a);
     printf("b = sqrt(%.2lf^2 + %.0lf^2) = %.6lf\n", x, T, b);
@@ -55,8 +55,8 @@ void zadanie3()
     int cond_a = (A % 2 == 0 && B % 2 != 0) || (A % 2 != 0 && B % 2 == 0);
     int cond_b = (A % 3 == 0) && (B % 3 == 0) && (C % 3 == 0);
 
-    printf("а) только одно из A и B чётное: %d\n", cond_a);
-    printf("б) A, B, C кратны трём: %d\n", cond_b);
+    printf("Р°) С‚РѕР»СЊРєРѕ РѕРґРЅРѕ РёР· A Рё B С‡С‘С‚РЅРѕРµ: %d\n", cond_a);
+    printf("Р±) A, B, C РєСЂР°С‚РЅС‹ С‚СЂС‘Рј: %d\n", cond_b);
 }
 
 int main()
