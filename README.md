@@ -1,6 +1,7 @@
 ## Домашнее задание к работе 3 (вар.32)
 ### Условие задачи
 <img width="782" height="43" alt="Снимок экрана 2026-10-06 112622" src="https://github.com/user-attachments/assets/406555a3-9989-40fe-a67f-013a443054e1" />
+
 ### 1. Реализация программы
 ```
 #define _USE_MATH_DEFINES
